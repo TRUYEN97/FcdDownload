@@ -1,0 +1,1942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Renci.SshNet.AuthenticationMethod" Collapsed="true">
+    <Position X="4" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAYAAAAAACAAAAAAAAAgAAA=</HashCode>
+      <FileName>AuthenticationMethod.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.BaseClient" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAYAAAIAACQAgQBAAAAAAICAAoFEEAIAAABASCAAgAI=</HashCode>
+      <FileName>BaseClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.CipherInfo" Collapsed="true">
+    <Position X="230.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CipherInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.ClientAuthentication" Collapsed="true">
+    <Position X="232" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAIAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClientAuthentication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.CommandAsyncResult" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="233.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAABAAEAAAAAAAABAQABAAAAAAAAA=</HashCode>
+      <FileName>CommandAsyncResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Renci.SshNet.Extensions" Collapsed="true">
+    <Position X="230.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICABAAAEAAAAAgAEAAAAAAAAAAAAAAAAAEAABAJAAA=</HashCode>
+      <FileName>Common\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.ConnectionInfo" Collapsed="true">
+    <Position X="11" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAsCBAEcAQAAIQoAA0EIAQIkyAIAGAYCAgAAAIAgAAA=</HashCode>
+      <FileName>ConnectionInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.ExpectAction" Collapsed="true">
+    <Position X="228.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ExpectAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.ExpectAsyncResult" Collapsed="true">
+    <Position X="13.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExpectAsyncResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.ForwardedPort" Collapsed="true">
+    <Position X="3" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABCAAAQCgAAAAAAQABgBAIAAAIABACAAAAAA=</HashCode>
+      <FileName>ForwardedPort.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.ForwardedPortDynamic" Collapsed="true">
+    <Position X="0.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgAAAACCACAAAgABQAAFSCAgBAIwAABACACAAAAAA=</HashCode>
+      <FileName>ForwardedPortDynamic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.ForwardedPortLocal" Collapsed="true">
+    <Position X="3" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAACCACAAAgABAAAFSGCgBAKgAABAAACAAAAAA=</HashCode>
+      <FileName>ForwardedPortLocal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.ForwardedPortRemote" Collapsed="true">
+    <Position X="5.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEAAAAEACDAAAAAgAAAAABSACABAKgAAIEAICAQAAAQ=</HashCode>
+      <FileName>ForwardedPortRemote.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.HashInfo" Collapsed="true">
+    <Position X="232" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HashInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.KeyboardInteractiveAuthenticationMethod" Collapsed="true">
+    <Position X="0.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAACDAAAAABAAACAEaAAgAAAAAgIAAAIAAAAAA=</HashCode>
+      <FileName>KeyboardInteractiveAuthenticationMethod.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.KeyboardInteractiveConnectionInfo" Collapsed="true">
+    <Position X="8.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAACAAAAAAAAAIAAIAAAAAAA=</HashCode>
+      <FileName>KeyboardInteractiveConnectionInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.MessageEventArgs&lt;T&gt;" Collapsed="true">
+    <Position X="230.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>MessageEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.NetConfClient" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAQACAAABAAAAAABAAAAAAAgAIAAAAAAIAAAAI=</HashCode>
+      <FileName>NetConfClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.NoneAuthenticationMethod" Collapsed="true">
+    <Position X="3" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAAAAABAAAAAAaAAgAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>NoneAuthenticationMethod.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.PasswordAuthenticationMethod" Collapsed="true">
+    <Position X="5.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAgAAACDAAAAABAAACAEaAAgAAAAAgAAAAIAAAAAA=</HashCode>
+      <FileName>PasswordAuthenticationMethod.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.PasswordConnectionInfo" Collapsed="true">
+    <Position X="11" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAEAAAACAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PasswordConnectionInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.PrivateKeyAuthenticationMethod" Collapsed="true">
+    <Position X="7.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAAAAABQAACAAaAAgAAAAAAAAAAIACAAAA=</HashCode>
+      <FileName>PrivateKeyAuthenticationMethod.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.PrivateKeyConnectionInfo" Collapsed="true">
+    <Position X="13.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>PrivateKeyConnectionInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.PrivateKeyFile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="225" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAAAAACAAACAAAEAAAAAAAAAAAAEAgg=</HashCode>
+      <FileName>PrivateKeyFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Renci.SshNet.ScpClient" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAqgAIIAABAAACAAAAAwBAAACAUEDAAFAAAAAAAA=</HashCode>
+      <FileName>ScpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.ServiceFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="233.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIBAAAAAAAgAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>ServiceFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Renci.SshNet.Session" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="225" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>nuSa68pUWmAOFkbaGakFCYwtAW/UmoglFqOG7rEFUhs=</HashCode>
+      <FileName>Session.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Renci.SshNet.SftpClient" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBQEKQCiCgAOABICiGUAAEEABXgQNMOZAEiAAUSQSo=</HashCode>
+      <FileName>SftpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Shell" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="226.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAAQAQGCKEAACAAAQAAAkCChLAAACkIAAAQAAAAAQ=</HashCode>
+      <FileName>Shell.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Renci.SshNet.ShellStream" Collapsed="true">
+    <Position X="230.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEDAAAAACCAAQAAoGIBAAAFiCgAIADAggAAhQBEIACA=</HashCode>
+      <FileName>ShellStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.SshClient" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAIAACAABAAAIEAEAACBAAAIAAQAACAAQAAQAQI=</HashCode>
+      <FileName>SshClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.SshCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="232" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUCAsAYJCCAAAQQCAAUAkAWCAgASIAAwAAAgAAQgAAA=</HashCode>
+      <FileName>SshCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Renci.SshNet.SubsystemSession" Collapsed="true">
+    <Position X="21.75" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IESAgDAgAKAAJEAAAAEIAJmCggAAABAhAAAAQgFAAAA=</HashCode>
+      <FileName>SubsystemSession.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Channels.Channel" Collapsed="true">
+    <Position X="23" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICxAAAICDrATTwDVBCECwATSAgQoEMU0RIPAAEHAQBg=</HashCode>
+      <FileName>Channels\Channel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Channels.ChannelDirectTcpip" Collapsed="true">
+    <Position X="23" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAKAACAAYAAGAAACAEAAAQAAEAIASCIAQACAAQA=</HashCode>
+      <FileName>Channels\ChannelDirectTcpip.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Channels.ChannelForwardedTcpip" Collapsed="true">
+    <Position X="20.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEACAAQAAAABACAEAAAAAAEAIASAAAQACAAQA=</HashCode>
+      <FileName>Channels\ChannelForwardedTcpip.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Channels.ChannelSession" Collapsed="true">
+    <Position X="25.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAoIACAQbACCEAAAAAJAAQAKACAAAgICEACwBAE=</HashCode>
+      <FileName>Channels\ChannelSession.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Channels.ClientChannel" Collapsed="true">
+    <Position X="24" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAAAAACACAAAAAAAABAAAAAECIAAAAAAAA=</HashCode>
+      <FileName>Channels\ClientChannel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Channels.ServerChannel" Collapsed="true">
+    <Position X="20.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Channels\ServerChannel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.ASCIIEncoding" Collapsed="true">
+    <Position X="225" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAQAAAAAAAEAAAAgAAAAARCAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ASCIIEncoding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.AsyncResult" Collapsed="true">
+    <Position X="13.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAIAAQAAABAAAAAgEKAABAAAALAQAAAUAAAAAAA=</HashCode>
+      <FileName>Common\AsyncResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Common.AsyncResult&lt;TResult&gt;" Collapsed="true">
+    <Position X="13.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABACAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Common\AsyncResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.AuthenticationBannerEventArgs" Collapsed="true">
+    <Position X="10.75" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\AuthenticationBannerEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.AuthenticationEventArgs" Collapsed="true">
+    <Position X="13" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\AuthenticationEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.AuthenticationPasswordChangeEventArgs" Collapsed="true">
+    <Position X="13" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\AuthenticationPasswordChangeEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.AuthenticationPrompt" Collapsed="true">
+    <Position X="226.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAABAAAAAAAAAAAAQAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\AuthenticationPrompt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.AuthenticationPromptEventArgs" Collapsed="true">
+    <Position X="15.25" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Common\AuthenticationPromptEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.ChannelDataEventArgs" Collapsed="true">
+    <Position X="19.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAAA=</HashCode>
+      <FileName>Common\ChannelDataEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.ChannelEventArgs" Collapsed="true">
+    <Position X="22" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ChannelEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.ChannelOpenConfirmedEventArgs" Collapsed="true">
+    <Position X="22" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ChannelOpenConfirmedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.ChannelOpenFailedEventArgs" Collapsed="true">
+    <Position X="24.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ChannelOpenFailedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.ChannelRequestEventArgs" Collapsed="true">
+    <Position X="228.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Common\ChannelRequestEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.DerData" Collapsed="true">
+    <Position X="225" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAACBABQAAAABIEAAQAAQQEEEMAAAACAIAEAAAA=</HashCode>
+      <FileName>Common\DerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.ExceptionEventArgs" Collapsed="true">
+    <Position X="226.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Common\ExceptionEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.HostKeyEventArgs" Collapsed="true">
+    <Position X="225" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAIAAgAAAAAAAAAgAAAAAg=</HashCode>
+      <FileName>Common\HostKeyEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.NetConfServerException" Collapsed="true">
+    <Position X="3.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\NetConfServerException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.PipeStream" Collapsed="true">
+    <Position X="232" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAggAAAQAAgGQAIAABgDAEAAAAAAAAAAAEIACA=</HashCode>
+      <FileName>Common\PipeStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.PortForwardEventArgs" Collapsed="true">
+    <Position X="233.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Common\PortForwardEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.ProxyException" Collapsed="true">
+    <Position X="8" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ProxyException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.ScpDownloadEventArgs" Collapsed="true">
+    <Position X="228.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAwAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ScpDownloadEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.ScpException" Collapsed="true">
+    <Position X="10.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ScpException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.ScpUploadEventArgs" Collapsed="true">
+    <Position X="230.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ScpUploadEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.SemaphoreLight" Collapsed="true">
+    <Position X="232" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAABAgAAQ=</HashCode>
+      <FileName>Common\SemaphoreLight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.SftpPathNotFoundException" Collapsed="true">
+    <Position X="12.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SftpPathNotFoundException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.SftpPermissionDeniedException" Collapsed="true">
+    <Position X="14.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SftpPermissionDeniedException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.ShellDataEventArgs" Collapsed="true">
+    <Position X="228.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAABAAA=</HashCode>
+      <FileName>Common\ShellDataEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.SshAuthenticationException" Collapsed="true">
+    <Position X="17" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SshAuthenticationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.SshConnectionException" Collapsed="true">
+    <Position X="19.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SshConnectionException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.SshData" Collapsed="true">
+    <Position X="116.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgAQAhAAQAKgAAAAAAQAQACAAQUAQQEARIFHAQQA=</HashCode>
+      <FileName>Common\SshData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.SshException" Collapsed="true">
+    <Position X="10.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SshException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.SshOperationTimeoutException" Collapsed="true">
+    <Position X="1.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SshOperationTimeoutException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Common.SshPassPhraseNullOrEmptyException" Collapsed="true">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SshPassPhraseNullOrEmptyException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Compression.Compressor" Collapsed="true">
+    <Position X="31.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAADAAAQAAEDCAAACAAAAAAAAAAAADAAAAAAA=</HashCode>
+      <FileName>Compression\Compressor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Compression.Zlib" Collapsed="true">
+    <Position X="30.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Compression\Zlib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Compression.ZlibOpenSsh" Collapsed="true">
+    <Position X="32.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Compression\ZlibOpenSsh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Compression.ZlibStream" Collapsed="true">
+    <Position X="233.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Compression\ZlibStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Authentication.BannerMessage" Collapsed="true">
+    <Position X="119" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAQAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\BannerMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Authentication.FailureMessage" Collapsed="true">
+    <Position X="123.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAIAAgAAA=</HashCode>
+      <FileName>Messages\Authentication\FailureMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Authentication.InformationRequestMessage" Collapsed="true">
+    <Position X="152.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAQAAAAAAAAAAQQAAAIAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Messages\Authentication\InformationRequestMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Authentication.InformationResponseMessage" Collapsed="true">
+    <Position X="159.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\InformationResponseMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Authentication.PasswordChangeRequiredMessage" Collapsed="true">
+    <Position X="164" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAQAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\PasswordChangeRequiredMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Authentication.PublicKeyMessage" Collapsed="true">
+    <Position X="166.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAQAEAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\PublicKeyMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Authentication.RequestMessage" Collapsed="true">
+    <Position X="175.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAQAAAAAQAAAAAAAAAAACAAAABAA=</HashCode>
+      <FileName>Messages\Authentication\RequestMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Authentication.RequestMessageHost" Collapsed="true">
+    <Position X="179.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAABAAAAAAAAAAAAAAAAAQAAQAAAAAAAACAAAgAAE=</HashCode>
+      <FileName>Messages\Authentication\RequestMessageHost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Authentication.RequestMessageKeyboardInteractive" Collapsed="true">
+    <Position X="170.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACEAAAAAAAAAAAAAQAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\RequestMessageKeyboardInteractive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Authentication.RequestMessageNone" Collapsed="true">
+    <Position X="173" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\RequestMessageNone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Authentication.RequestMessagePassword" Collapsed="true">
+    <Position X="175.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAQAAAAAAACAAACAAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\RequestMessagePassword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Authentication.RequestMessagePublicKey" Collapsed="true">
+    <Position X="177.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAQAEAAACAAAAAAE=</HashCode>
+      <FileName>Messages\Authentication\RequestMessagePublicKey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Authentication.SuccessMessage" Collapsed="true">
+    <Position X="98.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\SuccessMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ChannelCloseMessage" Collapsed="true">
+    <Position X="137" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelCloseMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ChannelDataMessage" Collapsed="true">
+    <Position X="139.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelDataMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ChannelEofMessage" Collapsed="true">
+    <Position X="141.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelEofMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ChannelExtendedDataMessage" Collapsed="true">
+    <Position X="143.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAABAAAAAAAAAQAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelExtendedDataMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ChannelFailureMessage" Collapsed="true">
+    <Position X="146" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelFailureMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ChannelMessage" Collapsed="true">
+    <Position X="137" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAQAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ChannelOpenInfo" Collapsed="true">
+    <Position X="187.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelOpen\ChannelOpenInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ChannelOpenMessage" Collapsed="true">
+    <Position X="148.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABQSAAAAAAAAAAQAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelOpen\ChannelOpenMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.DirectTcpipChannelInfo" Collapsed="true">
+    <Position X="184.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQQAAAAAAAAAAQBAAQAAAQAAAAAAAAAEg=</HashCode>
+      <FileName>Messages\Connection\ChannelOpen\DirectTcpipChannelInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ForwardedTcpipChannelInfo" Collapsed="true">
+    <Position X="186.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQYAAAAAAAAAAQBgAAAAAAAAAAAAAAAEg=</HashCode>
+      <FileName>Messages\Connection\ChannelOpen\ForwardedTcpipChannelInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.SessionChannelOpenInfo" Collapsed="true">
+    <Position X="188.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelOpen\SessionChannelOpenInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.X11ChannelOpenInfo" Collapsed="true">
+    <Position X="191" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQQAAAAAAAAAAQBAAAAAAAAAAAAAAAAEg=</HashCode>
+      <FileName>Messages\Connection\ChannelOpen\X11ChannelOpenInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ChannelOpenConfirmationMessage" Collapsed="true">
+    <Position X="125.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABQCAAQAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelOpenConfirmationMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ChannelOpenFailureMessage" Collapsed="true">
+    <Position X="128" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABCAAwAAAAAAAAAAQQAAAAAEAAAAQIAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelOpenFailureMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.BreakRequestInfo" Collapsed="true">
+    <Position X="197.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAACAAAAAAAQAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\BreakRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ChannelRequestMessage" Collapsed="true">
+    <Position X="134.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAEAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\ChannelRequestMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.EndOfWriteRequestInfo" Collapsed="true">
+    <Position X="200" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\EndOfWriteRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.EnvironmentVariableRequestInfo" Collapsed="true">
+    <Position X="202.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAEEAAAAQAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\EnvironmentVariableRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ExecRequestInfo" Collapsed="true">
+    <Position X="204.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAABAAQgAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\ExecRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ExitSignalRequestInfo" Collapsed="true">
+    <Position X="206.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAAEACAAQAAAAAAAAAAAQAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\ExitSignalRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ExitStatusRequestInfo" Collapsed="true">
+    <Position X="209" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAQAAAAAAAAAAAQAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\ExitStatusRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.KeepAliveRequestInfo" Collapsed="true">
+    <Position X="211.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\KeepAliveRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.PseudoTerminalRequestInfo" Collapsed="true">
+    <Position X="213.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAABAAAAEAIAAQAAAAQAAAAAAAAAgAAAAgAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\PseudoTerminalInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.RequestInfo" Collapsed="true">
+    <Position X="207.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAgAAAQAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\RequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ShellRequestInfo" Collapsed="true">
+    <Position X="215.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\ShellRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.SignalRequestInfo" Collapsed="true">
+    <Position X="218" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\SignalRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.SubsystemRequestInfo" Collapsed="true">
+    <Position X="220.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAgAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\SubsystemRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.WindowChangeRequestInfo" Collapsed="true">
+    <Position X="222.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAQAEAAAAAAAEAQAAAAAAAAAgAAAAgAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\WindowChangeRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.X11ForwardingRequestInfo" Collapsed="true">
+    <Position X="193.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIwAAAAABAAQAAQAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\X11ForwardingRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.XonXoffRequestInfo" Collapsed="true">
+    <Position X="195.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAgACAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\XonXoffRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ChannelSuccessMessage" Collapsed="true">
+    <Position X="130.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelSuccessMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.ChannelWindowAdjustMessage" Collapsed="true">
+    <Position X="132.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelWindowAdjustMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.GlobalRequestMessage" Collapsed="true">
+    <Position X="101" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAQAAAAAAAAAAAQAAAAAAAEAgAAAQAAAAA=</HashCode>
+      <FileName>Messages\Connection\GlobalRequestMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.RequestFailureMessage" Collapsed="true">
+    <Position X="107.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\RequestFailureMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Connection.RequestSuccessMessage" Collapsed="true">
+    <Position X="112.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\RequestSuccessMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Message" Collapsed="true">
+    <Position X="135.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAIAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.MessageAttribute" Collapsed="true">
+    <Position X="228.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\MessageAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.DebugMessage" Collapsed="true">
+    <Position X="155" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAACAAQAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Messages\Transport\DebugMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.DisconnectMessage" Collapsed="true">
+    <Position X="161.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAwAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\DisconnectMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.IgnoreMessage" Collapsed="true">
+    <Position X="168.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\IgnoreMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.KeyExchangeDhGroupExchangeGroup" Collapsed="true">
+    <Position X="182" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQgAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeDhGroupExchangeGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.KeyExchangeDhGroupExchangeInit" Collapsed="true">
+    <Position X="89.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeDhGroupExchangeInit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.KeyExchangeDhGroupExchangeReply" Collapsed="true">
+    <Position X="92" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAk=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeDhGroupExchangeReply.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.KeyExchangeDhGroupExchangeRequest" Collapsed="true">
+    <Position X="94.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQAACAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeDhGroupExchangeRequest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.KeyExchangeDhInitMessage" Collapsed="true">
+    <Position X="96.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeDhInitMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.KeyExchangeDhReplyMessage" Collapsed="true">
+    <Position X="103.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAk=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeDhReplyMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.KeyExchangeEcdhInitMessage" Collapsed="true">
+    <Position X="105.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeEcdhInitMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.KeyExchangeEcdhReplyMessage" Collapsed="true">
+    <Position X="110" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAABE=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeEcdhReplyMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.KeyExchangeInitMessage" Collapsed="true">
+    <Position X="114.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIBAAAAkQAAgAACAIACAQAAIAABAAAAEEAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeInitMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.NewKeysMessage" Collapsed="true">
+    <Position X="116.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\NewKeysMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.ServiceAcceptMessage" Collapsed="true">
+    <Position X="121.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Messages\Transport\ServiceAcceptMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.ServiceRequestMessage" Collapsed="true">
+    <Position X="150.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Messages\Transport\ServiceRequestMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Messages.Transport.UnimplementedMessage" Collapsed="true">
+    <Position X="157.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\UnimplementedMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.NetConf.NetConfSession" Collapsed="true">
+    <Position X="22.75" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQBCKBABAAAQAAACAAAAAAABABAAAAAIAAAAA=</HashCode>
+      <FileName>Netconf\NetConfSession.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Security.Algorithm" Collapsed="true">
+    <Position X="25.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Algorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.CertificateHostAlgorithm" Collapsed="true">
+    <Position X="12.75" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\CertificateHostAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.DsaKey" Collapsed="true">
+    <Position X="17.75" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAAAAAQAAAAACAAEAAAAAAAAAACABgYAA=</HashCode>
+      <FileName>Security\Cryptography\DsaKey.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Security.Key" Collapsed="true">
+    <Position X="16.75" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAAAAABAAQAAAAAAAAEAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Security\Cryptography\Key.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.RsaKey" Collapsed="true">
+    <Position X="15.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAAAAgQAAAAACUAEAAAAAAEAAADABwQAA=</HashCode>
+      <FileName>Security\Cryptography\RsaKey.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Security.GroupExchangeHashData" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQABAABAAAAQAgIBAAAAAQAQAAAAAAAAAgCCAAAAAEg=</HashCode>
+      <FileName>Security\GroupExchangeHashData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.HostAlgorithm" Collapsed="true">
+    <Position X="11.75" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAABAAAAAAAAQAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\HostAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.KeyExchange" Collapsed="true">
+    <Position X="23.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAABqCJAEQAAACAAAAECAIAAUgAAIADAgAIAAAg=</HashCode>
+      <FileName>Security\KeyExchange.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Security.KeyExchangeDiffieHellman" Collapsed="true">
+    <Position X="22.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEAAoCAAAAAAACQAAAAEABAAABABAAAAAGAAAAA=</HashCode>
+      <FileName>Security\KeyExchangeDiffieHellman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.KeyExchangeDiffieHellmanGroup14Sha1" Collapsed="true">
+    <Position X="23.5" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAABAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\KeyExchangeDiffieHellmanGroup14Sha1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.KeyExchangeDiffieHellmanGroup1Sha1" Collapsed="true">
+    <Position X="25.75" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAABAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\KeyExchangeDiffieHellmanGroup1Sha1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.KeyExchangeDiffieHellmanGroupExchangeSha1" Collapsed="true">
+    <Position X="19" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\KeyExchangeDiffieHellmanGroupExchangeSha1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.KeyExchangeDiffieHellmanGroupExchangeSha256" Collapsed="true">
+    <Position X="21.25" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\KeyExchangeDiffieHellmanGroupExchangeSha256.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.KeyExchangeDiffieHellmanGroupExchangeShaBase" Collapsed="true">
+    <Position X="20.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAABACAAAAAAAAACAAAAAAAAAAAAAECAAAAAAAg=</HashCode>
+      <FileName>Security\KeyExchangeDiffieHellmanGroupExchangeShaBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.KeyExchangeDiffieHellmanGroupSha1" Collapsed="true">
+    <Position X="24.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACQAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Security\KeyExchangeDiffieHellmanGroupSha1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.KeyExchangeEllipticCurveDiffieHellman" Collapsed="true">
+    <Position X="28" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEABgCAAAAAAACACAAQEAAAAABAEAAAAAGAAAAA=</HashCode>
+      <FileName>Security\KeyExchangeEllipticCurveDiffieHellman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.KeyHostAlgorithm" Collapsed="true">
+    <Position X="10.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAABQAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\KeyHostAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.AsymmetricCipher" Collapsed="true">
+    <Position X="17" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\AsymmetricCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.BlockCipher" Collapsed="true">
+    <Position X="9" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAAAAAAAAAAAAQAgAAAAAAAAAEAAAAEAAAACAAAAA=</HashCode>
+      <FileName>Security\Cryptography\BlockCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Cipher" Collapsed="true">
+    <Position X="9" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQCAAAAABBAAAAQQAAAAAAAAAAABCAAAAAAAAACAIAA=</HashCode>
+      <FileName>Security\Cryptography\Cipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.CipherDigitalSignature" Collapsed="true">
+    <Position X="5.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAIAARAACAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\CipherDigitalSignature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.DigitalSignature" Collapsed="true">
+    <Position X="6.75" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\DigitalSignature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.DsaDigitalSignature" Collapsed="true">
+    <Position X="7.75" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAARAAAACAAACAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\DsaDigitalSignature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.MD5Hash" Collapsed="true">
+    <Position X="226.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAQACBAiAABCAQAAoACAQAEAAABAgAAAAAAgWMAnIAA=</HashCode>
+      <FileName>Security\Cryptography\Hashes\MD5Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.RIPEMD160Hash" Collapsed="true">
+    <Position X="226.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAQCGAAiAABDAQAAoAAAQAEEAAAAwEgCAAAASAAnQAA=</HashCode>
+      <FileName>Security\Cryptography\Hashes\RIPEMD160Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.SHA1Hash" Collapsed="true">
+    <Position X="233.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0AQACAAmAABCAQAAoAACQAEAAAAByAAgAIAAWEAnAAA=</HashCode>
+      <FileName>Security\Cryptography\Hashes\SHA1Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.SHA256Hash" Collapsed="true">
+    <Position X="225" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAQAKAYiAABDAQAAoAAAQkEAAAAAwAAgAAAAQIA3QgA=</HashCode>
+      <FileName>Security\Cryptography\Hashes\SHA256Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.SHA2HashBase" Collapsed="true">
+    <Position X="25.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UEQACAQiDBADAQAAIAYAAgEAABABgAAggAAAQIAwQgg=</HashCode>
+      <FileName>Security\Cryptography\Hashes\SHA2HashBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.SHA384Hash" Collapsed="true">
+    <Position X="24.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAQAAgAAAQAAAAAAAQAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Security\Cryptography\Hashes\SHA384Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.SHA512Hash" Collapsed="true">
+    <Position X="26.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAQAAgAAAQAAAAAAAQAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Security\Cryptography\Hashes\SHA512Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.HMac&lt;T&gt;" Collapsed="true">
+    <Position X="233.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACBCAQQAAAAAAAAAAAAAEABAAAAAACECAAA=</HashCode>
+      <FileName>Security\Cryptography\HMAC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.RsaDigitalSignature" Collapsed="true">
+    <Position X="5.5" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACIAAAAAAAAAAACAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\RsaDigitalSignature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.StreamCipher" Collapsed="true">
+    <Position X="1.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\StreamCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.SymmetricCipher" Collapsed="true">
+    <Position X="8" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Security\Cryptography\SymmetricCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.AesCipher" Collapsed="true">
+    <Position X="12.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJQgCAAAAABAAgBAAAEEIQAIBAgiUAFAgAQAAmASAI=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\AesCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.Arc4Cipher" Collapsed="true">
+    <Position X="1.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQDAAAAIAAQAAAARAgAAAAAAAAAAAAAABAAAAAEAAAQ=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\Arc4Cipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.BlowfishCipher" Collapsed="true">
+    <Position X="14.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAIAAAAAAAAABAAAAABAAgAEAAAAABAAAEAEAABI=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\BlowfishCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.CastCipher" Collapsed="true">
+    <Position X="3.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABiQhAAAAAAAAABAACBAAAEAABAAAAGQQAgAAECIAI=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\CastCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.CipherMode" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAEAgCAAEAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\CipherMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.CipherPadding" Collapsed="true">
+    <Position X="1.75" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\CipherPadding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.DesCipher" Collapsed="true">
+    <Position X="5.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAABAAAAAAAAAJAQIQAAAAIAAAESCAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\DesCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.RsaCipher" Collapsed="true">
+    <Position X="17" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAACAAAQAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\RsaCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.SerpentCipher" Collapsed="true">
+    <Position X="8" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAIIAgAAAABAIBAAgAAAAAAAAAAAAgAAAFAIIQ=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\SerpentCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.TripleDesCipher" Collapsed="true">
+    <Position X="5.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAQAAAAIAAAEACAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\TripleDesCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.TwofishCipher" Collapsed="true">
+    <Position X="10.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABC0AAQAAABISgBAACCAHgQAAAhAoBvAAAgAQdiAYA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\TwofishCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.Modes.CbcCipherMode" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\Modes\CbcCipherMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.Modes.CfbCipherMode" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\Modes\CfbCipherMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.Modes.CtrCipherMode" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\Modes\CtrCipherMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.Modes.OfbCipherMode" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\Modes\OfbCipherMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.Paddings.PKCS5Padding" Collapsed="true">
+    <Position X="0.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\Paddings\PKCS5Padding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Security.Cryptography.Ciphers.Paddings.PKCS7Padding" Collapsed="true">
+    <Position X="2.75" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\Paddings\PKCS7Padding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.SftpDataMessage" Collapsed="true">
+    <Position X="139.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\SftpDataMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.SftpDownloadAsyncResult" Collapsed="true">
+    <Position X="8.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Sftp\SftpDownloadAsyncResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.SftpFile" Collapsed="true">
+    <Position X="226.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAgGAAEIAAIAIhEAEACABxVAJEIAAgAAAgAABIAAAY=</HashCode>
+      <FileName>Sftp\SftpFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.SftpFileAttributes" Collapsed="true">
+    <Position X="228.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAgSCAMMAALgkjDAAACChhVAZAACQvAuAgAAB5gAhY=</HashCode>
+      <FileName>Sftp\SftpFileAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.SftpFileStream" Collapsed="true">
+    <Position X="230.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAiBEgQGAAwAAqGCAKAJRgAAACEEKoAAAEgIGIACA=</HashCode>
+      <FileName>Sftp\SftpFileStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.SftpFileSytemInformation" Collapsed="true">
+    <Position X="232" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAIAAAAQAAAEAAAARAIgAEAAAAAAACKBAAA=</HashCode>
+      <FileName>Sftp\SftpFileSystemInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.SftpListDirectoryAsyncResult" Collapsed="true">
+    <Position X="11" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\SftpListDirectoryAsyncResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.SftpMessage" Collapsed="true">
+    <Position X="49.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAgAAAQAIAEAAAAAAAQAAAAAAAAAAIAAAEAAAA=</HashCode>
+      <FileName>Sftp\SftpMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.SftpSession" Collapsed="true">
+    <Position X="20.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEgAE4ARCgAAIBAwKBgAAGFACFJAFABAAQCQAcQQAA=</HashCode>
+      <FileName>Sftp\SftpSession.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.SftpSynchronizeDirectoriesAsyncResult" Collapsed="true">
+    <Position X="15.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\SftpSynchronizeDirectoriesAsyncResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.SftpUploadAsyncResult" Collapsed="true">
+    <Position X="17.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Sftp\SftpUploadAsyncResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.FStatVfsRequest" Collapsed="true">
+    <Position X="35.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAQQAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\ExtendedRequests\FStatVfsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.HardLinkRequest" Collapsed="true">
+    <Position X="38" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAEABAQQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\ExtendedRequests\HardLinkRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.PosixRenameRequest" Collapsed="true">
+    <Position X="40.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAEABAQQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\ExtendedRequests\PosixRenameRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.StatVfsRequest" Collapsed="true">
+    <Position X="42.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAIAAAAAAAQQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\ExtendedRequests\StatVfsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpBlockRequest" Collapsed="true">
+    <Position X="85.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAABQAAAAAAIAACAAAAAAgAA=</HashCode>
+      <FileName>Sftp\Requests\SftpBlockRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpCloseRequest" Collapsed="true">
+    <Position X="31.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAQAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpCloseRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpExtendedRequest" Collapsed="true">
+    <Position X="39" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Sftp\Requests\SftpExtendedRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpFSetStatRequest" Collapsed="true">
+    <Position X="47" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAQAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpFSetStatRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpFStatRequest" Collapsed="true">
+    <Position X="51.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAQAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpFStatRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpInitRequest" Collapsed="true">
+    <Position X="13.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAgAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpInitRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpLinkRequest" Collapsed="true">
+    <Position X="58.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAQQAAAAAAAAIAAAAAAgAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpLinkRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpLStatRequest" Collapsed="true">
+    <Position X="62.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpLStatRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpMkDirRequest" Collapsed="true">
+    <Position X="65" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpMkDirRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpOpenDirRequest" Collapsed="true">
+    <Position X="67.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpOpenDirRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpOpenRequest" Collapsed="true">
+    <Position X="69.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAgAAAQQAAAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpOpenRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpReadDirRequest" Collapsed="true">
+    <Position X="71.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAQAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpReadDirRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpReadLinkRequest" Collapsed="true">
+    <Position X="74" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpReadLinkRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpReadRequest" Collapsed="true">
+    <Position X="76.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAABQAAAAAAIAAAAAAAAAgAA=</HashCode>
+      <FileName>Sftp\Requests\SftpReadRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpRealPathRequest" Collapsed="true">
+    <Position X="78.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpRealPathRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpRemoveRequest" Collapsed="true">
+    <Position X="80.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQQAAAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpRemoveRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpRenameRequest" Collapsed="true">
+    <Position X="83" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAEABAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpRenameRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpRequest" Collapsed="true">
+    <Position X="58.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAYUAAQAAAAQARACAAAAAAECAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpRmDirRequest" Collapsed="true">
+    <Position X="33.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpRmDirRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpSetStatRequest" Collapsed="true">
+    <Position X="44.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpSetStatRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpStatRequest" Collapsed="true">
+    <Position X="49.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpStatRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpSymLinkRequest" Collapsed="true">
+    <Position X="53.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAQQgAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpSymLinkRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpUnblockRequest" Collapsed="true">
+    <Position X="56" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAABQAAAAAAIAAAAAAAAAgAA=</HashCode>
+      <FileName>Sftp\Requests\SftpUnblockRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Requests.SftpWriteRequest" Collapsed="true">
+    <Position X="60.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAQAAAAABIAAAAAAAAAgAA=</HashCode>
+      <FileName>Sftp\Requests\SftpWriteRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Responses.ExtendedReplyInfo" Collapsed="true">
+    <Position X="87.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\ExtendedReplies\ExtendedReplyInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Responses.StatVfsReplyInfo" Collapsed="true">
+    <Position X="87.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\ExtendedReplies\StatVfsReplyInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Responses.SftpAttrsResponse" Collapsed="true">
+    <Position X="15.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\SftpAttrsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Responses.SftpDataResponse" Collapsed="true">
+    <Position X="17.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQIAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\SftpDataResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Responses.SftpExtendedReplyResponse" Collapsed="true">
+    <Position X="20" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\SftpExtendedReplyResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Responses.SftpHandleResponse" Collapsed="true">
+    <Position X="22.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\SftpHandleResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Responses.SftpNameResponse" Collapsed="true">
+    <Position X="24.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAQAgAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Sftp\Responses\SftpNameResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Responses.SftpResponse" Collapsed="true">
+    <Position X="21" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAEAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\SftpResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Responses.SftpStatusResponse" Collapsed="true">
+    <Position X="26.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgCAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\SftpStatusResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renci.SshNet.Sftp.Responses.SftpVersionResponse" Collapsed="true">
+    <Position X="29" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAgAAAQAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\SftpVersionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Renci.SshNet.Common.BigInteger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="225" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gJIihgYABVUQCBZV8IerKyFqAyqABJoCEglEQBnAJ6A=</HashCode>
+      <FileName>Common\BigInteger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Renci.SshNet.Common.ObjectIdentifier" Collapsed="true">
+    <Position X="226.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Common\ObjectIdentifier.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Renci.SshNet.IAuthenticationMethod" Collapsed="true">
+    <Position X="225" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>IAuthenticationMethod.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Renci.SshNet.IConnectionInfoInternal" Collapsed="true">
+    <Position X="12.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAEAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IConnectionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Renci.SshNet.IConnectionInfo" Collapsed="true">
+    <Position X="12.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEQAAAAAAAAAAAAAAAAwAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>IConnectionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Renci.SshNet.IForwardedPort" Collapsed="true">
+    <Position X="230.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IForwardedPort.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Renci.SshNet.IServiceFactory" Collapsed="true">
+    <Position X="233.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIBAAAAAAAgAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>IServiceFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Renci.SshNet.ISession" Collapsed="true">
+    <Position X="225" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKQaAIAAQgACAABYQSEAAIAAAACQEggBACAAAhAAAAo=</HashCode>
+      <FileName>ISession.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Renci.SshNet.ISubsystemSession" Collapsed="true">
+    <Position X="26.75" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISubsystemSession.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Renci.SshNet.Channels.IChannel" Collapsed="true">
+    <Position X="4.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABAAAAAAJAQAAAAAAAAAAAAAAAIAAAAAABAAADAAAA=</HashCode>
+      <FileName>Channels\IChannel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Renci.SshNet.Channels.IChannelDirectTcpip" Collapsed="true">
+    <Position X="226.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAgAAAABAAIAAAAAAAAAAAAAAAAAAAAABAAACAAAA=</HashCode>
+      <FileName>Channels\IChannelDirectTcpip.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Renci.SshNet.Channels.IChannelForwardedTcpip" Collapsed="true">
+    <Position X="228.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAACAAAA=</HashCode>
+      <FileName>Channels\IChannelForwardedTcpip.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Renci.SshNet.Channels.IChannelSession" Collapsed="true">
+    <Position X="4.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIIAAAAKAAAEAAAAAIAAQACACAAAgACAAAwBAE=</HashCode>
+      <FileName>Channels\IChannelSession.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Renci.SshNet.Messages.Transport.IKeyExchangedAllowed" Collapsed="true">
+    <Position X="232" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\IKeyExchangedAllowed.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Renci.SshNet.NetConf.INetConfSession" Collapsed="true">
+    <Position X="25.5" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Netconf\INetConfSession.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Renci.SshNet.Sftp.ISftpSession" Collapsed="true">
+    <Position X="27.75" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAEQAQCAAAIBAwAAgAAEEACFBAAAAAAQCAAQQQAA=</HashCode>
+      <FileName>Sftp\ISftpSession.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Renci.SshNet.AuthenticationResult" Collapsed="true">
+    <Position X="225" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>AuthenticationResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Renci.SshNet.ProxyTypes" Collapsed="true">
+    <Position X="226.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAABAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>ProxyTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Renci.SshNet.Channels.ChannelTypes" Collapsed="true">
+    <Position X="228.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAIAAAAAAAAMAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Channels\ChannelTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Renci.SshNet.Common.TerminalModes" Collapsed="true">
+    <Position X="233.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAUICIgSJCgAEABIBxwEgCCAALhOJEFAAABAAAcsY=</HashCode>
+      <FileName>Common\TerminalModes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Renci.SshNet.Compression.CompressionMode" Collapsed="true">
+    <Position X="230.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Compression\CompressionMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Renci.SshNet.Messages.Connection.ChannelOpenFailureReasons" Collapsed="true">
+    <Position X="226.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAABAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelOpenFailureReasons.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Renci.SshNet.Messages.Connection.GlobalRequestName" Collapsed="true">
+    <Position X="225" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\GlobalRequestName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Renci.SshNet.Messages.ServiceName" Collapsed="true">
+    <Position X="228.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\ServiceName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Renci.SshNet.Messages.Transport.DisconnectReason" Collapsed="true">
+    <Position X="232" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAwAgAGCAAAAEIAgQAAABAAAAAAAkAAAEAAAI=</HashCode>
+      <FileName>Messages\Transport\DisconnectReason.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Renci.SshNet.Sftp.Flags" Collapsed="true">
+    <Position X="233.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgEgAAAACQAAAAAAAAEAAAA=</HashCode>
+      <FileName>Sftp\Flags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Renci.SshNet.Sftp.SftpMessageTypes" Collapsed="true">
+    <Position X="230.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IggMAAEEAACAIAgAAQAgBAQoAAAAEDIAQAICQAGAhAA=</HashCode>
+      <FileName>Sftp\SftpMessageTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Renci.SshNet.Sftp.StatusCodes" Collapsed="true">
+    <Position X="232" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAIAADAggBAgAEQAikEAAIEJIAAgAKCCBABAAAAKSI=</HashCode>
+      <FileName>Sftp\StatusCodes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

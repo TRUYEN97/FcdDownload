@@ -1,0 +1,64 @@
+{
+  "Model": "UNASPR40T01",
+  "Station": "DOWNLOAD",
+  "UiProduct": "[10854] (ea67) UNAS-PRO-4",
+  "FcdName": "FCD_ea67_1.0.12_4.4.2_UNAS-Pro-4",
+  "FcdUrl": "http://192.168.1.19:5000/leet/registration/UniFiDrive",
+  "InputLength": 29,
+  "UnitConfigs": [
+    {
+      "IsEnable": true,
+      "BaseIP": "192.168.1.30",
+      "CheckUartKeyWork": "UNAS-Pro-4 login:"
+    },
+    {
+      "IsEnable": true,
+      "BaseIP": "192.168.1.30",
+      "CheckUartKeyWork": "UNAS-Pro-4 login:"
+    },
+    {
+      "IsEnable": true,
+      "BaseIP": "192.168.1.30",
+      "CheckUartKeyWork": "UNAS-Pro-4 login:"
+    },
+    {
+      "IsEnable": true,
+      "BaseIP": "192.168.1.30",
+      "CheckUartKeyWork": "UNAS-Pro-4 login:"
+    }
+  ],
+  "VersionConfig": {
+    "FW": "446",
+    "FCD_Version": "1012442",
+    "BOM": "113-10854-07",
+    "Me_BOM": "300-02398-06",
+    "TlbBOM": "000-09696-03"
+  },
+  "SfisConfig": {
+    "Com": "COM8",
+    "Baudrate": 9600
+  },
+  "TestConditionConfig": {
+    "IsEnable": true,
+    "IsCheckMacOldEnable": false,
+    "IsCheckFailCountEnable": true,
+    "CheckUartTime": 10.0,
+    "MaxFailCount": 3
+  },
+  "LoggerConfig": {
+    "Host": "200.166.2.202",
+    "Port": 4422,
+    "User": "user",
+    "Password": "ubnt"
+  },
+  "PoeSwitchConfig": {
+    "IsPoeEnable": false,
+    "PoeIp": "192.168.1.20",
+    "PoePorts": [
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+}

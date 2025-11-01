@@ -1,0 +1,11 @@
+E:\公司项目\项目内部需求\2014-08-19 SSH连接\2015-01-06 SSH.NET连接工具\SSH.NET_DEMO\Renci.SshNet\obj\Debug\ResolveAssemblyReference.cache
+E:\公司项目\项目内部需求\2014-08-19 SSH连接\2015-01-06 SSH.NET连接工具\SSH.NET_DEMO\Renci.SshNet\bin\Debug\Renci.SshNet.dll
+E:\公司项目\项目内部需求\2014-08-19 SSH连接\2015-01-06 SSH.NET连接工具\SSH.NET_DEMO\Renci.SshNet\bin\Debug\Renci.SshNet.pdb
+E:\公司项目\项目内部需求\2014-08-19 SSH连接\2015-01-06 SSH.NET连接工具\SSH.NET_DEMO\Renci.SshNet\obj\Debug\Renci.SshNet.dll
+E:\公司项目\项目内部需求\2014-08-19 SSH连接\2015-01-06 SSH.NET连接工具\SSH.NET_DEMO\Renci.SshNet\obj\Debug\Renci.SshNet.pdb
+E:\公司项目\项目内部需求\2014-08-19 SSH连接\2015-01-06 SSH.NET连接工具\SSH.NET_DEMO\Renci.SshNet\bin\Debug\Renci.SshNet.xml
+C:\Users\Administrator\Desktop\AutoDownload\SSH.NET_Demo-master\Renci.SshNet\bin\Debug\Renci.SshNet.xml
+C:\Users\Administrator\Desktop\AutoDownload\SSH.NET_Demo-master\Renci.SshNet\bin\Debug\Renci.SshNet.dll
+C:\Users\Administrator\Desktop\AutoDownload\SSH.NET_Demo-master\Renci.SshNet\bin\Debug\Renci.SshNet.pdb
+C:\Users\Administrator\Desktop\AutoDownload\SSH.NET_Demo-master\Renci.SshNet\obj\Debug\Renci.SshNet.dll
+C:\Users\Administrator\Desktop\AutoDownload\SSH.NET_Demo-master\Renci.SshNet\obj\Debug\Renci.SshNet.pdb
