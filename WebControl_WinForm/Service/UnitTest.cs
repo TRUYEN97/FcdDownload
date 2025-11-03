@@ -37,9 +37,16 @@ namespace CPEI_MFG
             this.sfis = sfis;
             UnitConfig = unit;
             UnitView.IsEnable = unit.IsEnable;
+            UnitView.IsVisible = unit.IsVisible;
             pi4 = new RaspberryPiServeice("192.168.1.19", "ubnt", "ubnt");
             FailedCondition = testConditionChecker.FailedCondition;
-            checkResultTimer = new MyTimer(_ => WatchingTest());
+            checkResultTimer = new MyTimer(_ =>
+            {
+                if (checkResultTimer.IsRunning)
+                {
+                    WatchingTest();
+                }
+            });
         }
 
         public bool IsTesting => checkResultTimer.IsRunning;
@@ -187,58 +194,65 @@ namespace CPEI_MFG
         }
         private void WatchingTest()
         {
+            string res1 = GetWebElement(By.Id($"pgstext{model.Index}"))?.Text;
+            if (res1 == null || (!res1.Contains("Successful") && !res1.Contains("Failed")))
+            {
+                return;
+            }
             try
             {
-                string res1 = Driver?.FindElement(By.Id($"pgstext{model.Index}"))?.Text;
-                if (res1 != null && (res1.Contains("Successful") || res1.Contains("Failed")))
+                checkResultTimer.Stop();
+                string mac = model.ScanMAC;
+                string localDir = Path.Combine("D:\\UBNT_Test_Logs", appConfig.Model, appConfig.PcName, DateTime.Now.ToString("yyyy-MM-dd"));
+                string log = pi4.SearchAndDownLoadTestLog(mac, appConfig.LogPath, localDir);
+                Tuple<bool, string> rs = LogAnalyse(log);
+                model.TestResult = rs.Item1;
+                model.Errorcode = rs.Item2;
+                if (model.TestResult)
                 {
-                    try
-                    {
-                        string mac = model.ScanMAC;
-                        string localDir = Path.Combine("D:\\UBNT_Test_Logs", appConfig.Model, appConfig.PcName, DateTime.Now.ToString("yyyy-MM-dd"));
-                        string log = pi4.SearchAndDownLoadTestLog(mac, appConfig.LogPath, localDir);
-                        Tuple<bool, string> rs = LogAnalyse(log);
-                        model.TestResult = rs.Item1;
-                        model.Errorcode = rs.Item2;
-                        if (model.TestResult)
-                        {
-                            FailedCondition.SetPass();
-                        }
-                        else
-                        {
-                            FailedCondition.SetFailed(model.Errorcode);
-                        }
-                        SaveLogToServer(log, model.TestResult, mac, model.Errorcode);
-                        pi4.DeleteOldTestLog(mac, appConfig.LogPath);
-                        switch (sfis.SendTestResultToSFC(model.TestResult, mac, model.Errorcode))
-                        {
-                            case Sfis.SfisResult.FAIL:
-                                {
-                                    if (model.TestResult)
-                                    {
-                                        model.Message = "Send result to SFIS failed!";
-                                    }
-                                    break;
-                                }
-                            case Sfis.SfisResult.TIME_OUT:
-                                model.Message = $"Send result to SFIS failed, Terminal time out!";
-                                break;
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        UnitView.ShowErrorMess(ex.ToString());
-                        MessageBox.Show($"WatchingTest:\r\n{ex}", $"Slot{model.Index}");
-                    }
-                    finally
-                    {
-                        checkResultTimer.Stop();
-                        UnitView.StoptTest();
-                    }
+                    FailedCondition.SetPass();
                 }
+                else
+                {
+                    FailedCondition.SetFailed(model.Errorcode);
+                }
+                SaveLogToServer(log, model.TestResult, mac, model.Errorcode);
+                pi4.DeleteOldTestLog(mac, appConfig.LogPath);
+                switch (sfis.SendTestResultToSFC(model.TestResult, mac, model.Errorcode))
+                {
+                    case Sfis.SfisResult.FAIL:
+                        {
+                            if (model.TestResult)
+                            {
+                                model.Message = "Send result to SFIS failed!";
+                            }
+                            break;
+                        }
+                    case Sfis.SfisResult.TIME_OUT:
+                        model.Message = $"Send result to SFIS failed, Terminal time out!";
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                UnitView.ShowErrorMess(ex.ToString());
+                MessageBox.Show($"WatchingTest:\r\n{ex}", $"Slot{model.Index}");
+            }
+            finally
+            {
+                checkResultTimer.Stop();
+                UnitView.StoptTest();
+            }
+        }
+        private IWebElement GetWebElement(By by)
+        {
+            try
+            {
+                return Driver?.FindElement(by);
             }
             catch
             {
+                return null;
             }
         }
 
@@ -355,6 +369,7 @@ namespace CPEI_MFG
                 string localDir = Path.GetDirectoryName(file);
                 string newFile = Path.Combine(localDir, newName);
                 File.Copy(file, newFile);
+                File.Delete(file);
                 string remotePath = Path.Combine("\\UBNT_Test_Logs_Download", appConfig.Model, appConfig.PcName, DateTime.Now.ToString("yyyy-MM-dd"), newName);
                 var loogerSetting = appConfig.LoggerConfig;
                 using (var sftp = new MySftp(loogerSetting.Host, loogerSetting.Port, loogerSetting.User, loogerSetting.Password))
@@ -373,7 +388,7 @@ namespace CPEI_MFG
             {
                 while (true)
                 {
-                    MessageBox.Show(ex.ToString());
+                    MessageBox.Show($"SaveLogToServer: {ex}");
                 }
             }
         }

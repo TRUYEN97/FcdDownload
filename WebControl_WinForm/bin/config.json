@@ -8,21 +8,25 @@
   "UnitConfigs": [
     {
       "IsEnable": true,
+      "IsVisible": true,
       "BaseIP": "192.168.1.30",
       "CheckUartKeyWork": "UNAS-Pro-4 login:"
     },
     {
       "IsEnable": true,
+      "IsVisible": true,
       "BaseIP": "192.168.1.30",
       "CheckUartKeyWork": "UNAS-Pro-4 login:"
     },
     {
       "IsEnable": true,
+      "IsVisible": true,
       "BaseIP": "192.168.1.30",
       "CheckUartKeyWork": "UNAS-Pro-4 login:"
     },
     {
       "IsEnable": true,
+      "IsVisible": true,
       "BaseIP": "192.168.1.30",
       "CheckUartKeyWork": "UNAS-Pro-4 login:"
     }
@@ -39,7 +43,7 @@
     "Baudrate": 9600
   },
   "TestConditionConfig": {
-    "IsEnable": true,
+    "IsEnable": false,
     "IsCheckMacOldEnable": false,
     "IsCheckFailCountEnable": true,
     "CheckUartTime": 10.0,

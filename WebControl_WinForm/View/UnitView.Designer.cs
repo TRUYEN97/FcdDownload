@@ -41,7 +41,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtInput = new System.Windows.Forms.TextBox();
-            this.lbName = new System.Windows.Forms.Label();
             this.lbStatus = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.grMain.SuspendLayout();
@@ -54,7 +53,6 @@
             this.grMain.Controls.Add(this.lbInput);
             this.grMain.Controls.Add(this.groupBox13);
             this.grMain.Controls.Add(this.txtInput);
-            this.grMain.Controls.Add(this.lbName);
             this.grMain.Controls.Add(this.lbStatus);
             this.grMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grMain.Location = new System.Drawing.Point(0, 0);
@@ -82,9 +80,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbInput.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbInput.Location = new System.Drawing.Point(131, 19);
+            this.lbInput.Location = new System.Drawing.Point(9, 19);
             this.lbInput.Name = "lbInput";
-            this.lbInput.Size = new System.Drawing.Size(477, 25);
+            this.lbInput.Size = new System.Drawing.Size(599, 25);
             this.lbInput.TabIndex = 17;
             // 
             // groupBox13
@@ -194,22 +192,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtInput.Location = new System.Drawing.Point(131, 47);
+            this.txtInput.Location = new System.Drawing.Point(9, 47);
             this.txtInput.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtInput.Name = "txtInput";
-            this.txtInput.Size = new System.Drawing.Size(410, 31);
+            this.txtInput.Size = new System.Drawing.Size(532, 31);
             this.txtInput.TabIndex = 0;
             this.txtInput.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtInput_KeyPress);
-            // 
-            // lbName
-            // 
-            this.lbName.AutoSize = true;
-            this.lbName.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbName.Location = new System.Drawing.Point(22, 47);
-            this.lbName.Name = "lbName";
-            this.lbName.Size = new System.Drawing.Size(104, 29);
-            this.lbName.TabIndex = 6;
-            this.lbName.Text = "ttyUSB0:";
             // 
             // lbStatus
             // 
@@ -218,11 +206,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbStatus.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbStatus.Location = new System.Drawing.Point(131, 81);
+            this.lbStatus.Location = new System.Drawing.Point(9, 81);
             this.lbStatus.Name = "lbStatus";
-            this.lbStatus.Size = new System.Drawing.Size(477, 34);
+            this.lbStatus.Size = new System.Drawing.Size(599, 34);
             this.lbStatus.TabIndex = 14;
             this.lbStatus.Text = "Waiting";
+            this.lbStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // UnitView
             // 
@@ -243,7 +232,6 @@
 
         private System.Windows.Forms.GroupBox grMain;
         private System.Windows.Forms.TextBox txtInput;
-        private System.Windows.Forms.Label lbName;
         private System.Windows.Forms.Label lbStatus;
         private System.Windows.Forms.GroupBox groupBox13;
         private System.Windows.Forms.Label lbFail;

@@ -157,7 +157,7 @@ namespace CPEI_MFG.Services
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show($"DeleteOldTestLog: {ex.Message}");
             }
         }
         public string SearchAndDownLoadTestLog(string mac, string remoteDir, string localDir)

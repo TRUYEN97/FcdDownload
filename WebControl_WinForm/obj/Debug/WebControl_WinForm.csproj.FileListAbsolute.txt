@@ -460,3 +460,7 @@ D:\2.C#\MidleWare\Download_FCD\WebControl_WinForm\obj\Debug\WebControl_WinForm.c
 D:\2.C#\MidleWare\Download_FCD\WebControl_WinForm\obj\Debug\AutoDownload.exe.config
 D:\2.C#\MidleWare\Download_FCD\WebControl_WinForm\obj\Debug\AutoDownload.g.resources
 D:\2.C#\MidleWare\Download_FCD\WebControl_WinForm\obj\Debug\CPEI_MFG.View.UnitView.resources
+D:\2.C#\MidleWare\Download_FCD\WebControl_WinForm\bin\Debug\Renci.SshNet.Async.dll
+D:\2.C#\MidleWare\Download_FCD\WebControl_WinForm\bin\Debug\Renci.SshNet.dll
+D:\2.C#\MidleWare\Download_FCD\WebControl_WinForm\bin\Debug\Renci.SshNet.xml
+D:\2.C#\MidleWare\Download_FCD\WebControl_WinForm\bin\Debug\Renci.SshNet.Async.xml

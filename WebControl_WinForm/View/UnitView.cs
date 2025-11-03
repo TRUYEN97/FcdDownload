@@ -1,6 +1,7 @@
 ﻿using CPEI_MFG.Model;
 using System;
 using System.Drawing;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -11,18 +12,21 @@ namespace CPEI_MFG.View
         private readonly MyTimer stopwatch;
         private int testTime;
         private bool isEnable;
+        private bool isVisible;
 
         public UnitView(TestModel model)
         {
             InitializeComponent();
             Dock = DockStyle.Fill;
-            lbName.Text = $"ttyUSB{model.Index}";
             grMain.Text = $"SLOT {model.Index}";
             testTime = 0;
             stopwatch = new MyTimer((_) =>
             {
-                LockAll(true);
-                SetText(lbStatus, $"Testing... {testTime++} s", Color.Yellow);
+                if (stopwatch.IsRunning)
+                {
+                    LockAll(true);
+                    SetText(lbStatus, $"Testing... Time: {testTime++} s", Color.Orange);
+                }
             });
             Model = model;
             RefreshData();
@@ -33,11 +37,20 @@ namespace CPEI_MFG.View
         public event Action<Control> FocusNextControl;
         public bool IsEnable
         {
-            get => isEnable;
+            get { return isEnable; }
             set
             {
                 isEnable = value;
                 SetEnabled(value);
+            }
+        }
+        public bool IsVisible
+        {
+            get { return isVisible; }
+            set
+            {
+                isVisible = value;
+                Visible = value;
             }
         }
         public void StartTest()
@@ -75,6 +88,7 @@ namespace CPEI_MFG.View
                 Model.FailNum++;
             }
             RefreshData();
+            LockAll(false);
         }
         private void txtInput_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -84,14 +98,13 @@ namespace CPEI_MFG.View
             }
             Task.Run(() =>
             {
-                Model.Input = txtInput.Text.Trim();
+                string input = txtInput.Text.Trim();
                 SetText(lbInput, string.Empty, Color.Black);
-                OnInputEnter?.Invoke(Model.Input);
-                InvokeUtil.SafeInvoke(txtInput, () =>
-                {
-                    txtInput.Text = string.Empty;
-                    FocusNextControl?.Invoke(txtInput);
-                });
+                OnInputEnter?.Invoke(input);
+                Model.Input = input;
+                SetText(lbInput, input, Color.Black);
+                SetText(txtInput, string.Empty, Color.Black);
+                InvokeUtil.SafeInvoke(txtInput, () => FocusNextControl?.Invoke(txtInput));
             });
         }
 

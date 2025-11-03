@@ -29,7 +29,7 @@ namespace WebControl_WinForm
         public UIDL()
         {
             InitializeComponent();
-            Text = $"UI Download - ver: 2025.11.1";
+            Text = $"UI Download - ver: 2025.11.3";
             config = ConfigLoader.ProgramConfig;
             sfis = new Sfis(config);
             unitTests = new List<UnitTest>();
