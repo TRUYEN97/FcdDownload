@@ -10,6 +10,7 @@ namespace CPEI_MFG.Config
         public string Station { get; set; } = string.Empty;
         internal string PcName { get; set; } = string.Empty;
         public string UiProduct { get; set; } = string.Empty;
+        public string PassPhrase { get; set; } = "m@8vm*Xr7e";
         internal string UiProduct_name { get; set; } = string.Empty;
         public string FcdName { get; set; } = string.Empty;
         public string FcdUrl { get; set; } = string.Empty;

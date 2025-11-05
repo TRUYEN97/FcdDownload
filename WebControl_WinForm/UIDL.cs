@@ -29,7 +29,7 @@ namespace WebControl_WinForm
         public UIDL()
         {
             InitializeComponent();
-            Text = $"UI Download - ver: 2025.11.3";
+            Text = $"UI Download - ver: 2025.11.5";
             config = ConfigLoader.ProgramConfig;
             sfis = new Sfis(config);
             unitTests = new List<UnitTest>();
@@ -150,7 +150,7 @@ namespace WebControl_WinForm
                     return;
                 }
                 var verConfig = config.VersionConfig;
-                driver.FindElement(By.Id("passphrase")).SendKeys("m@8vm*Xr7e");
+                driver.FindElement(By.Id("passphrase")).SendKeys(config.PassPhrase);
                 driver.FindElement(By.Id("product")).SendKeys(config.UiProduct);
                 driver.FindElement(By.Id("bomrev")).SendKeys(verConfig.BOM);
                 if (!string.IsNullOrEmpty(verConfig.Me_BOM))
@@ -343,6 +343,11 @@ namespace WebControl_WinForm
 
         private bool InitialFcdInfo()
         {
+            if (string.IsNullOrWhiteSpace(config.PassPhrase))
+            {
+                MessageBox.Show("Invalid PassPhrase!");
+                return false;
+            }
             if (string.IsNullOrWhiteSpace(config.UiProduct))
             {
                 MessageBox.Show("Invalid UI_product!");

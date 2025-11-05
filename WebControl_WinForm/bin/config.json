@@ -2,6 +2,7 @@
   "Model": "UNASPR40T01",
   "Station": "DOWNLOAD",
   "UiProduct": "[10854] (ea67) UNAS-PRO-4",
+  "PassPhrase": "m@8vm*Xr7e",
   "FcdName": "FCD_ea67_1.0.12_4.4.2_UNAS-Pro-4",
   "FcdUrl": "http://192.168.1.19:5000/leet/registration/UniFiDrive",
   "InputLength": 29,

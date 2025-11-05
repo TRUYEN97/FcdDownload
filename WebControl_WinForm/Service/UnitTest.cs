@@ -132,7 +132,7 @@ namespace CPEI_MFG
                 if (CheckInput(input))
                 {
                     UnitView.StartTest();
-                    checkResultTimer.Start(0, 1000);
+                    checkResultTimer.Start(3000, 1000);
                 }
             }
             catch (Exception ex)
@@ -170,8 +170,12 @@ namespace CPEI_MFG
                 {
                     case Sfis.SfisResult.PASS:
                         FailedCondition.OldMac = model.ScanMAC;
-                        pi4.DeleteArpIp($"192.168.1.3{model.Index + 1}");
+                        string ip = $"192.168.1.3{model.Index + 1}";
+                        UnitView.ShowMessage($"Send arp -d {ip}");
+                        pi4.DeleteArpIp(ip); 
+                        UnitView.ShowMessage("Delete old log");
                         pi4.DeleteOldTestLog(model.ScanMAC, appConfig.LogPath);
+                        UnitView.ShowMessage($"Send input({input}) to FCD");
                         string htmlQR = $"macqr{model.Index}";
                         Driver.FindElement(By.Id(htmlQR)).SendKeys(input);
                         Driver.FindElement(By.Id(htmlQR)).SendKeys(OpenQA.Selenium.Keys.Enter);
@@ -205,6 +209,11 @@ namespace CPEI_MFG
                 string mac = model.ScanMAC;
                 string localDir = Path.Combine("D:\\UBNT_Test_Logs", appConfig.Model, appConfig.PcName, DateTime.Now.ToString("yyyy-MM-dd"));
                 string log = pi4.SearchAndDownLoadTestLog(mac, appConfig.LogPath, localDir);
+                if (log == null || !File.Exists(log))
+                {
+                    UnitView.ShowErrorMess("Log test not found!");
+                    return;
+                }
                 Tuple<bool, string> rs = LogAnalyse(log);
                 model.TestResult = rs.Item1;
                 model.Errorcode = rs.Item2;
@@ -258,6 +267,10 @@ namespace CPEI_MFG
 
         private Tuple<bool, string> LogAnalyse(string logPath)
         {
+            if (!File.Exists(logPath))
+            {
+                return new Tuple<bool, string>(false, "NOLOG");
+            }
             string fileText = File.ReadAllText(logPath);
             if (fileText.IndexOf("=== 100 ===") < 0)
             {
@@ -358,7 +371,7 @@ namespace CPEI_MFG
                 return new Tuple<bool, string>(true, "");
             }
         }
-        private void SaveLogToServer(string file, bool result, string mac, string errorCode)
+        private void SaveLogToServer(string logPath, bool result, string mac, string errorCode)
         {
             string strTime_log = DateTime.Now.ToString("yyyyMMddhhmmss");
             string newName = result ?
@@ -366,10 +379,10 @@ namespace CPEI_MFG
                 $"FAIL_{mac}_{appConfig.Model}_{appConfig.Station}_{appConfig.PcName}_{strTime_log}_{errorCode}.txt";
             try
             {
-                string localDir = Path.GetDirectoryName(file);
+                string localDir = Path.GetDirectoryName(logPath);
                 string newFile = Path.Combine(localDir, newName);
-                File.Copy(file, newFile);
-                File.Delete(file);
+                File.Copy(logPath, newFile);
+                File.Delete(logPath);
                 string remotePath = Path.Combine("\\UBNT_Test_Logs_Download", appConfig.Model, appConfig.PcName, DateTime.Now.ToString("yyyy-MM-dd"), newName);
                 var loogerSetting = appConfig.LoggerConfig;
                 using (var sftp = new MySftp(loogerSetting.Host, loogerSetting.Port, loogerSetting.User, loogerSetting.Password))
